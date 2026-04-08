@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.segmentation/
+.venv/
+
+# PyTorch models (large files)
+*.pth
+
+# Logs & outputs
+*.log
+logs/*.txt
+terminals/*.txt
+!README.txt
+!README.md
+
+# Dataset (DO NOT upload)
+processed_dataset/
+brain_segmentation_data/
+segmentation/
+
+
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

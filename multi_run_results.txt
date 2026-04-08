@@ -1,0 +1,14 @@
+Multi-Run Evaluation Results
+==============================================================
+Standard U-Net
+  lr=0.00100 | batch_size=16
+  Seeds: [42, 52]
+  Per-seed Dice: [0.8, 0.7935]
+  Dice = 0.7967 ± 0.0032
+
+U-Net + PSO
+  lr=0.00015 | batch_size=8
+  Seeds: [42, 52]
+  Per-seed Dice: [0.8211, 0.8306]
+  Dice = 0.8258 ± 0.0047
+
